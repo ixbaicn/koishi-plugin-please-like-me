@@ -1,0 +1,31 @@
+{
+  "name": "koishi-plugin-please-like-me",
+  "description": "赞我，一个QQ名片点赞插件，简单且更加强大，支持订阅点赞，对陌生人支持最多点赞50次。",
+  "version": "1.1.5",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "qq",
+    "like",
+    "zanwo",
+    "please-like-me"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "koishi": "^4.18.7"
+  }
+}
